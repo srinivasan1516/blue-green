@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Blue Green Deployment</title>
+</head>
+<body>
+<h1>Jenkins Blue Green Deployment</h1>
+<h2>Version: <span id="ver"></span></h2>
+
+
+<script>
+fetch('version.txt')
+.then(r => r.text())
+.then(t => document.getElementById('ver').innerText = t);
+</script>
+</body>
+</html>
