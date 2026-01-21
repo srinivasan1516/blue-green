@@ -14,7 +14,7 @@ stages {
 
 stage('Checkout Code') {
 steps {
-git branch: 'main', url: 'https://github.com/<username>/blue-green-webapp.git'
+git branch: 'main', url: 'https://github.com/srinivasan1516/blue-green.git'
 }
 }
 
