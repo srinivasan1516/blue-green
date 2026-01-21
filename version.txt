@@ -1,5 +1,1 @@
-<<<<<<< HEAD
 GREEN
-=======
-BLUE
->>>>>>> ba2c21a6428ab6c3d6fcf4c3936a58905d91effb
